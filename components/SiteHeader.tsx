@@ -45,7 +45,7 @@ const SiteHeader = () => {
                 <OrganizationSwitcher afterCreateOrganizationUrl="/dashboard" afterSelectOrganizationUrl="/dashboard"/>
                 {isLandingPage && (
                     <Button asChild size="sm">
-                        <Link href="/dashboard">Dashboard</Link>
+                        <Link href="/dashboard">Dashboard page</Link>
                     </Button>
                 )}
                 <UserButton/>
